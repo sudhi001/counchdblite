@@ -13,6 +13,13 @@
 		9FAA1F831B61C8BA0013A4F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FAA1F821B61C8BA0013A4F6 /* Images.xcassets */; };
 		9FAA1F861B61C8BA0013A4F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FAA1F841B61C8BA0013A4F6 /* LaunchScreen.xib */; };
 		9FAA1F921B61C8BB0013A4F6 /* CounchdbliteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAA1F911B61C8BB0013A4F6 /* CounchdbliteTests.swift */; };
+		9FAA1F9E1B61C9C60013A4F6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAA1F9D1B61C9C60013A4F6 /* CFNetwork.framework */; };
+		9FAA1FA01B61C9CE0013A4F6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAA1F9F1B61C9CE0013A4F6 /* Security.framework */; };
+		9FAA1FA21B61C9DA0013A4F6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAA1FA11B61C9DA0013A4F6 /* SystemConfiguration.framework */; };
+		9FAA1FA41B61C9E90013A4F6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAA1FA31B61C9E90013A4F6 /* libsqlite3.dylib */; };
+		9FAA1FA61B61C9F90013A4F6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAA1FA51B61C9F90013A4F6 /* libz.dylib */; };
+		9FAA1FA91B61CA6A0013A4F6 /* CounchDataBaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAA1FA81B61CA6A0013A4F6 /* CounchDataBaseHandler.swift */; };
+		9FAA1FAE1B61D3650013A4F6 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAA1FAD1B61D3650013A4F6 /* CouchbaseLite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,14 @@
 		9FAA1F8B1B61C8BB0013A4F6 /* CounchdbliteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounchdbliteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FAA1F901B61C8BB0013A4F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FAA1F911B61C8BB0013A4F6 /* CounchdbliteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounchdbliteTests.swift; sourceTree = "<group>"; };
+		9FAA1F9D1B61C9C60013A4F6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9FAA1F9F1B61C9CE0013A4F6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9FAA1FA11B61C9DA0013A4F6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9FAA1FA31B61C9E90013A4F6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		9FAA1FA51B61C9F90013A4F6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		9FAA1FA81B61CA6A0013A4F6 /* CounchDataBaseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounchDataBaseHandler.swift; sourceTree = "<group>"; };
+		9FAA1FAC1B61D1620013A4F6 /* Counchbdlite-Bridge-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Counchbdlite-Bridge-Header.h"; sourceTree = "<group>"; };
+		9FAA1FAD1B61D3650013A4F6 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +58,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FAA1FA61B61C9F90013A4F6 /* libz.dylib in Frameworks */,
+				9FAA1FA41B61C9E90013A4F6 /* libsqlite3.dylib in Frameworks */,
+				9FAA1FA21B61C9DA0013A4F6 /* SystemConfiguration.framework in Frameworks */,
+				9FAA1FA01B61C9CE0013A4F6 /* Security.framework in Frameworks */,
+				9FAA1FAE1B61D3650013A4F6 /* CouchbaseLite.framework in Frameworks */,
+				9FAA1F9E1B61C9C60013A4F6 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +80,7 @@
 		9FAA1F6D1B61C8B90013A4F6 = {
 			isa = PBXGroup;
 			children = (
+				9FAA1FA71B61CA040013A4F6 /* Framework */,
 				9FAA1F781B61C8BA0013A4F6 /* Counchdblite */,
 				9FAA1F8E1B61C8BB0013A4F6 /* CounchdbliteTests */,
 				9FAA1F771B61C8BA0013A4F6 /* Products */,
@@ -83,6 +105,8 @@
 				9FAA1F821B61C8BA0013A4F6 /* Images.xcassets */,
 				9FAA1F841B61C8BA0013A4F6 /* LaunchScreen.xib */,
 				9FAA1F791B61C8BA0013A4F6 /* Supporting Files */,
+				9FAA1FA81B61CA6A0013A4F6 /* CounchDataBaseHandler.swift */,
+				9FAA1FAC1B61D1620013A4F6 /* Counchbdlite-Bridge-Header.h */,
 			);
 			path = Counchdblite;
 			sourceTree = "<group>";
@@ -110,6 +134,19 @@
 				9FAA1F901B61C8BB0013A4F6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FAA1FA71B61CA040013A4F6 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				9FAA1FAD1B61D3650013A4F6 /* CouchbaseLite.framework */,
+				9FAA1FA51B61C9F90013A4F6 /* libz.dylib */,
+				9FAA1FA31B61C9E90013A4F6 /* libsqlite3.dylib */,
+				9FAA1FA11B61C9DA0013A4F6 /* SystemConfiguration.framework */,
+				9FAA1F9F1B61C9CE0013A4F6 /* Security.framework */,
+				9FAA1F9D1B61C9C60013A4F6 /* CFNetwork.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FAA1F7E1B61C8BA0013A4F6 /* ViewController.swift in Sources */,
+				9FAA1FA91B61CA6A0013A4F6 /* CounchDataBaseHandler.swift in Sources */,
 				9FAA1F7C1B61C8BA0013A4F6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +331,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Counchbdlite-Bridge-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -331,7 +371,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Counchbdlite-Bridge-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -341,9 +383,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/sudhi/Downloads/couchbase-lite-ios-enterprise_1",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Counchdblite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Counchbdlite-Bridge-Header.h";
 			};
 			name = Debug;
 		};
@@ -351,9 +400,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/sudhi/Downloads/couchbase-lite-ios-enterprise_1",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Counchdblite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Counchbdlite-Bridge-Header.h";
 			};
 			name = Release;
 		};
